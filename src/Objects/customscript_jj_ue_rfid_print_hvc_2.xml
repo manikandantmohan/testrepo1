@@ -1,7 +1,7 @@
 <usereventscript scriptid="customscript_jj_ue_rfid_print_hvc_2">
     <name>JJ UE RFID PRINT BUTTON HVC-2</name>
     <notifyowner>T</notifyowner>
-    <scriptfile>[/SuiteScripts/JJ UE RFID PRINT BUTTON HVC-2.js]</scriptfile>
+    <scriptfile>[/SuiteScripts/Jobin and Jimis IT Services LLP/HiveCrest RFID Print/Transaction Print/JJ UE RFID PRINT BUTTON HVC-2.js]</scriptfile>
     <scriptdeployments>
         <scriptdeployment scriptid="customdeploy_ue_rfid_print_po_hvc">
             <isdeployed>T</isdeployed>

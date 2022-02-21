@@ -110,7 +110,7 @@ define([],
             beforeLoad(scriptContext) {
                 log.debug('scriptContext',scriptContext)
                 if (scriptContext.type == 'view') {
-                    const dashboardTemplateURL = '';
+                    const dashboardTemplateURL = 'https://tstdrv2567897.app.netsuite.com/core/media/media.nl?id=2529&c=TSTDRV2567897&h=Ysq6PhgL8D1IHkghfbQqQ8eMiRsti-De5ZDEd0W0R5qn6_JG&_xt=.html';
                     let recordId = scriptContext.newRecord.id;
                     let HIDDEN_INLINE_HTML_FIELD = scriptContext.form.addField({
                         id: "custpage_jj_rfid_print_btn_hvc_2",
@@ -118,7 +118,7 @@ define([],
                         label: "Dashboard Link HVC-2"
                     });
                     HIDDEN_INLINE_HTML_FIELD.defaultValue = `<script>
-                        window.___RFID_DASHBOARD_LINK_HVC3___="${dashboardTemplateURL}&transId=${recordId}";
+                        window.___RFID_DASHBOARD_LINK_HVC3___="${dashboardTemplateURL}&recordType=${scriptContext.newRecord.type}&recordId=${scriptContext.newRecord.id}";
                         window.___showTransaction_RFID_modal___ = function(){window.open( window.___RFID_DASHBOARD_LINK_HVC3___,"_self")};                
                         </script>`;
                     scriptContext.form.addButton({

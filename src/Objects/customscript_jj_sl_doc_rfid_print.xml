@@ -6,7 +6,7 @@
   <notifyemails></notifyemails>
   <notifyowner>T</notifyowner>
   <notifyuser>F</notifyuser>
-  <scriptfile>[/SuiteScripts/JJ SL RFID PRINT HVC-2.js]</scriptfile>
+  <scriptfile>[/SuiteScripts/Jobin and Jimis IT Services LLP/HiveCrest RFID Print/Transaction Print/JJ SL RFID PRINT HVC-2.js]</scriptfile>
   <scriptdeployments>
     <scriptdeployment scriptid="customdeploy_jj_sl_doc_rfid_print">
       <allemployees>T</allemployees>

@@ -20,7 +20,7 @@
  *
  *
  ***********************************************************************************************/
-define(['N/search', 'N/record', 'N/config', '/SuiteScripts/rfid mapping.js', '/SuiteScripts/createpayload.js'],
+define(['N/search', 'N/record', 'N/config', './JJ CM RFID Mapping.js', './JJ CM Create Payload.js'],
     /**
      * @param{search} search
      * @param{search} record
