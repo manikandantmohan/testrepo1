@@ -17,6 +17,7 @@ define([], () => {
             "action": data['printAction'] ? data['printAction'] : null,
             "items": []
         };
+
         let dataMapArray = {
             "item_sid": null,
             "upc": null,
