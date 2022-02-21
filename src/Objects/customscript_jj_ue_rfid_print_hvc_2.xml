@@ -1,0 +1,25 @@
+<usereventscript scriptid="customscript_jj_ue_rfid_print_hvc_2">
+    <name>JJ UE RFID PRINT BUTTON HVC-2</name>
+    <notifyowner>T</notifyowner>
+    <scriptfile>[/SuiteScripts/JJ UE RFID PRINT BUTTON HVC-2.js]</scriptfile>
+    <scriptdeployments>
+        <scriptdeployment scriptid="customdeploy_ue_rfid_print_po_hvc">
+            <isdeployed>T</isdeployed>
+            <loglevel>DEBUG</loglevel>
+            <recordtype>PURCHASEORDER</recordtype>
+            <status>RELEASED</status>
+        </scriptdeployment>
+        <scriptdeployment scriptid="customdeploy_ue_rfid_print_ir_hvc">
+            <isdeployed>T</isdeployed>
+            <loglevel>DEBUG</loglevel>
+            <recordtype>ITEMRECEIPT</recordtype>
+            <status>RELEASED</status>
+        </scriptdeployment>
+        <scriptdeployment scriptid="customdeploy_ue_rfid_print_bill_hvc">
+            <isdeployed>T</isdeployed>
+            <loglevel>DEBUG</loglevel>
+            <recordtype>VENDORBILL</recordtype>
+            <status>RELEASED</status>
+        </scriptdeployment>
+    </scriptdeployments>
+</usereventscript>
